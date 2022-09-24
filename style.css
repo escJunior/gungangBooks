@@ -153,7 +153,6 @@ p {
 
 /* Home */
 #home {
-  background: url('imgs/gbLogo-removebg4.png') center/cover no-repeat;
   padding: 22px;
   padding-top: 120px;
   text-align: center;
@@ -244,6 +243,12 @@ p {
   vertical-align: -7px;
   width: 23px;
   height: 23px;
+}
+
+.contact__icon {
+  vertical-align: -25px;
+  width: 85px;
+  height: 85px;
 }
 
 .major__icon i {
@@ -649,7 +654,6 @@ p {
 
 /* Contact */
 #contact {
-  background: url('imgs/gbLogo-removebg2.png') center/cover no-repeat;
   background-color: var(--color-blue);
   background-size: 350px;
 }
