@@ -153,7 +153,7 @@ p {
 
 /* Home */
 #home {
-  /*background: url('imgs/homebackground.png') center/cover no-repeat;*/
+  background: url('imgs/gbLogo-removebg4.png') center/cover no-repeat;
   padding: 22px;
   padding-top: 120px;
   text-align: center;
@@ -237,8 +237,13 @@ p {
   margin: auto;
   color: var(--color-blue);
   border: 1px solid var(--color-blue);
-  border-radius: 50%;
-  margin-bottom: 16px;
+  border-radius: 25%;
+}
+
+.job__icon {
+  vertical-align: -7px;
+  width: 23px;
+  height: 23px;
 }
 
 .major__icon i {
@@ -267,6 +272,7 @@ p {
   display: flex;
   align-items: center;
   margin-top: 30px;
+  margin-left: 40px;
 }
 
 .pub__progress {
@@ -280,7 +286,7 @@ p {
 }
 
 .job__description {
-  margin: 0 16px;
+  margin: 0px 0px 0px 20px;
   text-align: left;
 }
 
@@ -301,6 +307,12 @@ p {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.book__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
 }
 
 /* Skill */
@@ -637,7 +649,9 @@ p {
 
 /* Contact */
 #contact {
+  background: url('imgs/gbLogo-removebg2.png') center/cover no-repeat;
   background-color: var(--color-blue);
+  background-size: 350px;
 }
 
 .contact__title,
@@ -764,6 +778,12 @@ p {
   .job__logo {
     width: 135px;
     height: 135px;
+  }
+
+  .major__icon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
   }
 
   .publish__img {
