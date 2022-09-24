@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>건강북스</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software engineer escJunior"
+    />
+    <meta name="author" content="건강북스" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/9bf7879613.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fa-solid fa-g"></i>
+        <a href="#">건강북스</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#testimonials">
+          Testimonials
+        </li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+
+      <!-- Toggle Button -->
+      <button class="navbar__toggle-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <div>
+          <h1 class="home__title" style="margin-bottom: 60px">
+            여러분의 건강을 생각합니다
+          </h1>
+        </div>
+        <div class="home__img">
+          <div>
+            <div>
+              <h2 class="avatar__title">에세이</h2>
+            </div>
+            <div>
+              <img
+                src="imgs/essay.jpeg"
+                alt="escJunior's profile photo"
+                class="home__avatar"
+              />
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2 class="avatar__title">운동서적</h2>
+            </div>
+            <div>
+              <img
+                src="imgs/exercise.jpeg"
+                alt="escJunior's profile photo"
+                class="home__avatar center"
+              />
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2 class="avatar__title">건강서적</h2>
+            </div>
+            <div>
+              <img
+                src="imgs/medical.jpeg"
+                alt="escJunior's profile photo"
+                class="home__avatar"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="home__contact" data-link="#contact">CONTACT ME</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>건강북스는</h1>
+      <div style="margin: 0 25px">
+        <p>
+          건강이란 허약한 상태가 아닐 뿐만 아니라 질병이 없고, 육체적•정신적으로
+          튼튼하며 사회적으로 완전한 안녕 상태를 말합니다. 건강북스는 건강 관련
+          종사자 및 저자분들과 힘을 합쳐 건강한 신체와 정신을 만들어 나가기 위한
+          노력을 기울이고 있습니다. 주로 운동, 의학, 에세이 서적을 출판하고
+          있으며 출판사를 위한 책이 아닌 저자분과 독자분들을 위한 책을 만들어
+          나가려 합니다.
+        </p>
+      </div>
+
+      <div class="about__jobs" style="margin-top: 50px">
+        <div class="job">
+          <img
+            src="imgs/cho.jpeg"
+            alt="HanaTI"
+            class="job__logo"
+            style="margin-left: 20px"
+          />
+          <div class="job__description">
+            <p class="job__name">대표자 조민해</p>
+            <p class="job__period">한국체육대학교 레저스포츠학과 졸업</p>
+            <p class="job__period">바른필라테스 & PT EMS 대표</p>
+            <p class="job__period">도서출판 '건강북스' 대표</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h1>출판비용</h1>
+      <div class="section__container">
+        <img src="imgs/personal_cost.png" alt="" class="publish__img" />
+      </div>
+      <div>
+        <img src="imgs/team_cost.png" alt="" class="publish__img" />
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+      <h1>출판 진행 과정</h1>
+      <div class="section__container">
+        <div class="pub">
+          <img src="imgs/cho.jpeg" alt="HanaTI" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">투고</p>
+            <p class="pub__progress">whalsgody@naver.com</p>
+          </div>
+        </div>
+        <div class="pub">
+          <img src="imgs/cho.jpeg" alt="HanaTI" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">1:1 담당자 배치</p>
+            <p class="pub__progress" style="width: 150px">• e-Book 디자이너</p>
+            <p class="pub__progress" style="width: 150px">• 종이책 디자이너</p>
+            <p class="pub__progress">• 저자 인터뷰 촬영 담당자</p>
+            <p class="pub__progress">• 교정교열</p>
+          </div>
+        </div>
+        <div class="pub">
+          <img src="imgs/cho.jpeg" alt="HanaTI" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">홍보</p>
+            <p class="pub__progress">• 기사</p>
+            <p class="pub__progress">• 유튜브, 네이버 책 리뷰어</p>
+          </div>
+        </div>
+        <div class="pub">
+          <img src="imgs/cho.jpeg" alt="HanaTI" class="job__logo" />
+          <div class="job__description">
+            <p class="job__name">출판</p>
+            <p class="pub__progress">출판 기념 행사</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+      <h1>서적</h1>
+      <div class="section__container">
+        <div class="about__jobs" style="margin-top: 50px">
+          <div class="job">
+            <img src="imgs/book_spine.jpeg" alt="HanaTI" class="job__logo" />
+            <div class="book__description">
+              <p class="job__name">척추 바로 세우기 | 12,000원</p>
+              <p class="job__period">
+                ‘백세시대인 우리가 앞으로 어떤 방향으로 몸을 가꾸어 나가야
+                하는지’에 대해서 고민해 봤을 때 바른 자세를 만드는 건 근육량을
+                늘리는 것과 마찬가지로 중요합니다.
+                <br />[척추 바로 세우기]는 일상생활 속 틀어진 자세를 바로잡고
+                틀어진 척추, 골반에 대한 교정운동을 통해 바른 자세를 만들어 가는
+                내용입니다. <br />현대인들의 생활패턴으로 인해 나타날 수 있는
+                틀어진 자세를 바른 자세로 고쳐나간다면 건강에 한 발짝 더 다가갈
+                수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="about__jobs" style="margin-top: 50px">
+          <div class="job">
+            <img src="imgs/book_study.jpeg" alt="HanaTI" class="job__logo" />
+            <div class="book__description">
+              <p class="job__name">
+                수능점수 높여 주는 운동법 & 생활습관 | 15,000원
+              </p>
+              <p class="job__period">
+                스포츠센터를 운영하는 현직 헬스 트레이너가 알려주는 수험생을
+                위한 성적을 올려주는 운동법 안내서가 국내 처음으로 출간됐다.
+                <br />저자는 책에서 운동과 두뇌 발달의 상관관계를 다양한 예시를
+                통해 소개하고, 책상앞에 앉아서 하는 공부 방법 외에 운동을 통해
+                공부의 효율을 높이는 구체적인 방법을 제시한다. <br />저자는
+                입시생에게 체력과 집중력이 성적향상을 도와줄 수 있는 가장 핵심이
+                되는 두 가지 요소라고 설명하며, <br />체력을 키우기 위한
+                유산소성 · 근력 운동과 집중력을 기르기 위한 코어 운동법을 비롯해
+                잘못된 자세를 교정할 수 있는 <br />운동 · 다이어트 운동 · 잠을
+                쫓아 주는 스트레칭 동작 등을 자세한 시연 사진과 함께 소개한다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <p class="contact__rights">CALL CENTER 031-8028-1767</p>
+      <p class="contact__rights">E-MAIL whalsgody@naver.com</p>
+      <p class="contact__rights">
+        ADDRESS 15049 경기도 시흥시 정왕동 2323-9 금강빌딩
+      </p>
+      <p class="contact__rights">COMPANY 건강북스</p>
+      <p class="contact__rights">BUSINESS REGISTRATION NO 3431000833</p>
+      <p class="contact__rights">COPYRIGHT © 건강북스. ALL RIGHTS RESERVED.</p>
+
+      <h2 class="contact__title">CANTACT ME</h2>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
