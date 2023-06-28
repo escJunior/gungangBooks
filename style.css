@@ -222,6 +222,16 @@ p {
 }
 
 /* About */
+.about__icon {
+  vertical-align: -25px;
+  width: 215px;
+  height: 129px;
+}
+
+.about__icon-crop {
+  height: 100px;
+}
+
 .about__majors {
   display: flex;
   justify-content: space-between;
